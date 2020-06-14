@@ -1,0 +1,8 @@
+! Swap caps lock and escape
+! To make permanent in xfce, go to "Session and Startup > "Application
+! autostart > "add", then create a command so that :
+! xmodmap ~/.xmodmap
+remove Lock = Caps_Lock
+keysym Escape = Caps_Lock
+keysym Caps_Lock = Escape
+add Lock = Caps_Lock
