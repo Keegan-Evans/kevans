@@ -22,3 +22,5 @@ noremap Q gqap
 command! -range=% SoftWrap
             \ <line2>put _ |
             \ <line1>,<line2>g/.\+/ .;-/^$/ join |normal $x
+
+set backspace=indent,eol,start  " more powerful backspacing
