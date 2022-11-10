@@ -1,0 +1,1 @@
+first_public_func(var1, another_public_func(vara,
