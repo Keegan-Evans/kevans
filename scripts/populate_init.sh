@@ -1,8 +1,9 @@
-#/bin/zsh
+#!/bin/bash
+
 # get target module
-target_module_directory=$1;
-printf "$target_module_directory\n"
-printf "Contents of target directory: \n%s\n" [(ls $target_module_directory)]
+target_module_directory=$1
+printf "%s\n" "$(target_module_directory)"
+printf "Contents of target directory: \n%s\n" ["ls \"$(target_module_directory)\""]
 # check for/locate or create target module init
 echo "file already added to your __init__"
 # parse target and locate functions

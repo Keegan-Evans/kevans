@@ -1,0 +1,3 @@
+[console_scripts]
+internet-available = pocket_kit.network_helpers:internet
+mqtt-msg = pocket_kit.mqtt:generate_sensor_data_msg

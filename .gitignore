@@ -1,3 +1,2 @@
-nvim/old_plugs/
-nvim/pack/
-
+.DS_Store
+*.pyc

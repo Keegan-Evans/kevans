@@ -1,0 +1,10 @@
+[project]
+name = "pocket_kit"
+version = "0.0.1"
+
+[options]
+packages = ["pocket_kit", "pocket_kit.network_helpers", "pocket_kit.mqtt"]
+
+[project.scripts] # other stuff..
+internet-available = "pocket_kit.network_helpers:internet"
+mqtt-msg = "pocket_kit.mqtt:generate_sensor_data_msg"
